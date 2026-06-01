@@ -40,7 +40,7 @@ print(valores)
 # numeroA = a
 # numeroB = b
 
-
+#bb
 #Condicionales realizan pruebas con base a lo que le indiquemos
 
 # if numeroA == numeroB:
