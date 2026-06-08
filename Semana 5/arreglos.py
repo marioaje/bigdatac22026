@@ -26,20 +26,25 @@
 # obtener el menor y mayor de este arregloarregloNumeros = [2,34,5,7,8,434,23,87]
 
 arregloNumeros = [2,34,5,7,8,434,23,87]
+totlatres = sum(arregloNumeros)
+cantidad = len(arregloNumeros)
+print("El total es:", totlatres)
 
-mayor = arregloNumeros[0]
-menor = arregloNumeros[0]
+print(totlatres/cantidad)
 
-for items in arregloNumeros:
-    if items > mayor:
-        mayor = items
+# mayor = arregloNumeros[0]
+# menor = arregloNumeros[0]
 
-    if items < menor:
-        menor = items
+# for items in arregloNumeros:
+#     if items > mayor:
+#         mayor = items
 
-print ("numero mayor: ", mayor)        
-print ("numero menor: ", menor)        
+#     if items < menor:
+#         menor = items
+
+# print ("numero mayor: ", mayor)        
+# print ("numero menor: ", menor)        
 
 
-print ("numero mayor: ", max(arregloNumeros))        
-print ("numero menor: ", min(arregloNumeros))       
+# print ("numero mayor: ", max(arregloNumeros))        
+# print ("numero menor: ", min(arregloNumeros))       
